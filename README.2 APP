@@ -1,0 +1,20 @@
+streamlit-password-generator
+
+Just a simple web app to generate random passwords. Built it using Python and Streamlit so I could customize the character pools easily.
+
+## Features
+- Set your own password length
+- Checkboxes to toggle numbers, symbols, lowercase, and uppercase letters
+- "Include All" shortcut if you're lazy and want a mix of everything
+- Throws an error message if you try to generate a password with zero boxes checked
+
+## How to run it
+First, make sure you have streamlit installed:
+```bash
+pip install streamlit
+```
+
+Then just run the script:
+```bash
+streamlit run app.py
+``'
