@@ -35,8 +35,3 @@ if st.button("Generate Password"):
                 for _ in range(password_length):
                      password = password + random.choice(pool)
                 st.write("your password is: ", password)
-
-'''second_password= st.text_input('Generate another password? y/n? ')
-if (second_password)==('n'):
-    st.write('Applicationn stopped')
-    st.stop()'''
